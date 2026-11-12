@@ -1,32 +1,32 @@
-# Distribuidora de bebidas — aplicação desktop
+# Beverage distributor — desktop application
 
-Projeto acadêmico da UTFPR que simula rotinas de uma distribuidora de bebidas em uma aplicação Java com interface Swing.
+Academic UTFPR project that simulates beverage distributor operations through a Java Swing interface.
 
-## Recursos
+## Features
 
-- Interfaces para clientes, fornecedores e produtos.
-- Telas e entidades relacionadas a compras e vendas.
-- Modelos de listagem para os registros.
-- Camada DAO para acesso ao PostgreSQL.
+- Customer, supplier and product interfaces.
+- Screens and entities related to purchases and sales.
+- List models for displaying records.
+- DAO layer for PostgreSQL access.
 
-## Tecnologias
+## Technologies
 
-Java, Swing/JFrame, JDBC e PostgreSQL.
+Java, Swing/JFrame, JDBC and PostgreSQL.
 
-## Preparar o ambiente
+## Prepare the environment
 
-1. Importe os fontes na IDE Java de sua preferência, preservando os pacotes DAO, entidades, model e view.
-2. Adicione o driver JDBC do PostgreSQL ao classpath.
-3. Revise a conexão em DAO/ConexaoDao.java e disponibilize um banco com as tabelas esperadas pelos DAOs.
-4. Confira os recursos de imagens usados pelas telas e a inicialização em view/MenuPrincipal.java.
+1. Import the source into a Java IDE, preserving the DAO, entidades, model and view packages.
+2. Add the PostgreSQL JDBC driver to the classpath.
+3. Review DAO/ConexaoDao.java and provide a database with the tables expected by the DAOs.
+4. Check image resources used by the forms and the entry point in view/MenuPrincipal.java.
 
-## Organização
+## Structure
 
-- `DAO/`: conexão e persistência.
-- `entidades/`: modelos do domínio.
-- `model/`: modelos de apresentação das listas.
-- `view/`: formulários, telas e imagens.
+- `DAO/`: connection and persistence.
+- `entidades/`: domain models.
+- `model/`: presentation list models.
+- `view/`: forms, screens and images.
 
-## Limitações
+## Limitations
 
-O repositório não fornece um projeto Maven/Gradle nem um roteiro completo de criação do banco. Portanto, sua preparação requer configuração manual das dependências e do schema. É um registro acadêmico de aplicação desktop e padrão DAO.
+The repository does not provide a Maven/Gradle project or a complete database creation guide. Dependencies and schema need manual configuration. This is an academic record of desktop development and the DAO pattern.
